@@ -1,0 +1,15 @@
+<!--uc.wxml-->
+<view class="person">
+  <view class="uc_top">
+    <block>
+      <text class='uc_title'>欢迎来到个人中心</text>
+      <text class='uc_center'>{{uc_center}}</text>
+    </block>
+  </view>
+  <view class="uc_floor">
+    <button bindtap='openmap'>打开地图</button>
+    <button bindtap='scantocode'>微信扫码</button>
+    <button bindtap='mywebsite'>个人网站</button>
+    <text class="uc_name">{{uc_name}}</text>
+  </view>
+</view>
