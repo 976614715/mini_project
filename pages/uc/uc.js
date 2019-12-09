@@ -1,7 +1,7 @@
 //uc.js
 Page({
   data: { // 参与页面渲染的数据
-    uc_center: '中心内容区域',
+    // uc_center: '中心内容区域',
     uc_name:'zhangtao'
   },
   onLoad() {
