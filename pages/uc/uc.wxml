@@ -10,6 +10,7 @@
     <button bindtap='openmap'>打开地图</button>
     <button bindtap='scantocode'>微信扫码</button>
     <button bindtap='mywebsite'>个人网站</button>
+    <text selectable='true'>长按选中</text>
     <!-- <text class="uc_name">{{uc_name}}</text> -->
   </view>
 </view>
